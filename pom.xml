@@ -5,7 +5,11 @@
   <artifactId>tut2-3</artifactId>
   <packaging>jar</packaging>
   <version>0.1</version>
-  <name>tut2-3</name>
+  <properties>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+  </properties>
+    <name>tut2-3</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
